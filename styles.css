@@ -14,6 +14,7 @@
 .banner-pic{
     width:100%; 
 }
+
 .left-con{
     background-color: red;
     padding: 10px;
@@ -44,8 +45,8 @@
     background-color: blueviolet;
     padding: 10px;
     width: 75%;
-    
 }
+
 .product-box{
     display: flex;
     border: 1px solid black;
@@ -80,3 +81,15 @@ footer{
     color: white;
     background-color: black;
 }
+@media (max-width: 768px) { 
+.container{
+    display: grid;
+}
+.left-con{
+    width: 100%;
+}
+.right-con{
+    width: 100%;
+    background-color: chartreuse;
+}  
+ }
