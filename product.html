@@ -29,85 +29,229 @@
       </nav>
 <main>
  <div class="container">
-
     <div class="product-container"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum sed, doloremque, eaque excepturi atque nostrum nesciunt eveniet pariatur cum ad maxime consectetur. Facere velit veniam, nemo eaque dolorem accusantium non, facilis recusandae ab quis, reiciendis alias laboriosam natus dignissimos tempore. Enim obcaecati praesentium hic officiis repellendus voluptatum ex libero veritatis.</p>
         <div class="product-search">
         <div class="search-box">
-            <p>ค้นหา</p> <input type="text">
+            <input type="text" style="border-radius: 15px;">  <button type="button" class="btn btn-outline-success" >ค้นหา</button>
         </div>
         </div>
 
-        <div class="product-catalog">
+<div class="product-catalog">
             <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="box-product">
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card shadow h-100">
                     <img src="img-product1.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <button type="button" class="btn btn-outline-primary">Primary</button>
-                      <button type="button" class="btn btn-outline-success">Success</button>
+                      <p class="card-title">ตลับอเนกประสงค์ <br><h3>39 บาท</h3></p>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  รายละเอียด
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel" >ตลับอเนกประสงค์</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <img src="img-product1.png" alt="" style="width: 75%;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+        <button type="button" class="btn btn-success" >  Add to Cart </button>
+      </div>
+    </div>
+  </div>
+</div>
+<button type="button" class="btn btn-outline-success" >Add to Cart</button>
                     </div>
                   </div>
                 </div>
+              </div>
+
+              <div class="box-product">
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card shadow h-100">
                     <img src="img-product2.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <button type="button" class="btn btn-outline-primary">Primary</button>
-                      <button type="button" class="btn btn-outline-success">Success</button>
-                    </div>
-                  </div>
-                </div>
+                      <h5 class="card-title">แปรงปัดแก้ม <br><h3>109 บาท</h3></h5>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+  รายละเอียด
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">แปรงปัดแก้ม</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <img src="img-product2.png" alt="" style="width: 75%;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+        <button type="button" class="btn btn-success">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<button type="button" class="btn btn-outline-success">Add to Cart</button>
+        </div>
+        </div>
+        </div>
+      </div>
+      
+                <div class="box-product">
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card shadow h-100">
                     <img src="img-product3.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <button type="button" class="btn btn-outline-primary">Primary</button>
-                      <button type="button" class="btn btn-outline-success">Success</button>
+                      <h5 class="card-title">กระจกพกพา<br><h3>39 บาท</h3></h5>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+  รายละเอียด
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">กระจกพกพา</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <img src="img-product3.png" alt="" style="width: 75%;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+        <button type="button" class="btn btn-success">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<button type="button" class="btn btn-outline-success">Add to Cart</button>
                     </div>
                   </div>
                 </div>
+              </div>
+
+              <div class="box-product">
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card shadow h-100">
                     <img src="img-product4.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <button type="button" class="btn btn-outline-primary">Primary</button>
-                      <button type="button" class="btn btn-outline-success">Success</button>
+                      <h5 class="card-title">ก้านแคะหูเรืองแสง<br><h3>349 บาท</h3></h5>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+  รายละเอียด
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">ก้านแคะหูเรืองแสง</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <img src="img-product4.png" alt="" style="width: 75%;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+        <button type="button" class="btn btn-success">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<button type="button" class="btn btn-outline-success">Add to Cart</button>
                     </div>
                   </div>
                 </div>
+              </div>   
+
+                <div class="box-product">
                 <div class="col">
                     <div class="card h-100">
                       <img src="img-product5.png" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <button type="button" class="btn btn-outline-primary">Primary</button>
-                      <button type="button" class="btn btn-outline-success">Success</button>
+                        <h5 class="card-title">หวีแบบตลับ<br><h3>59 บาท</h3></h5>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+  รายละเอียด
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">หวีแบบตลับ</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img-product5.png" alt="" style="width: 75%;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+        <button type="button" class="btn btn-success">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<button type="button" class="btn btn-outline-success">Add to Cart</button>
                       </div>
                     </div>
                   </div>
+                </div>
+
+                  <div class="box-product">
                   <div class="col">
                     <div class="card h-100">
                       <img src="img-product6.png" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <button type="button" class="btn btn-outline-primary">Primary</button>
-                      <button type="button" class="btn btn-outline-success">Success</button>
+                        <h5 class="card-title">หวีพกพา<br><h3>29 บาท</h3></h5>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+  รายละเอียด
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">หวีพกพา</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <img src="img-product6.png" alt="" style="width: 75%;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+        <button type="button" class="btn btn-success">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<button type="button" class="btn btn-outline-success">Add to Cart</button>
                       </div>
                     </div>
                   </div>
-
-
+                </div>
               </div>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem vero quo, laudantium enim voluptatum ab, nisi provident magni quas odit impedit porro pariatur incidunt necessitatibus! Voluptas eveniet illum et possimus alias asperiores dicta quod commodi, velit unde distinctio non aliquid sint nesciunt ipsum maiores esse id sapiente! Assumenda, optio.</p>
     </div>
-
 </div>
-
 </main>
 </body>
 <footer>

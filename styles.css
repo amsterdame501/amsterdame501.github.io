@@ -1,25 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+
 .container{
     display: flex;
+    justify-content: center;
     width: 1140px;
     margin: 0 auto;
     background-color: yellow;
     padding: 10px;
     gap: 20px;
+    min-height: 100vh;
+    background: linear-gradient( 90deg,#fdd5ff 60%,#ffe5fb 40.1%);
+    padding-bottom: 70px;
+}
+.container form{
+    border-radius: 15px;
+    padding: 20px;
+    width: 700px;
+    background: #ffff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.container form .row-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.container form .row-form .col-form{
+flex: 1 1 25px;
+}
+.container form .row-form .col-form .title-form{
+
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.container form .row-form .col-form .inputbox-form{
+    margin: 15px 0;
+}
+.container form .row-form .col-form .inputbox-form span{
+    margin-bottom: 10px;
+    display: block;
+}
+.container form .row-form .col-form .inputbox-form input{
+    width: 100%;
+    border: 1px solid#cccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+.container form .row-form .col-form .inputbox-form input:focus{
+border: 1px solid#0000;
+}
+.container form .row-form .col-form .flex-form {
+    display: flex;
+    gap: 15px;
+    }
+.container form .row-form .col-form .inputbox-form {
+    margin-top: 5px;
+
+     }
+.container form .sumit-btn{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: rgb(238, 170, 204);
+    color: 0000;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.container form .sumit-btn:hover{
+    background: hotpink;
 }
 .banner-box{
  display: flex;
  width: auto;
  height: 200px;
 }
+
 .banner-pic{
     width:100%; 
 }
-
+.navbar{
+    background: linear-gradient( 90deg,#fdd5ff 59.1%,#ffe5fb 41.1%);
+}
 .left-con{
     background-color: red;
     padding: 10px;
     align-items: center;
     width: 45%;
+    text-align: center;
 }
 .promo-box{
     display: flex;
@@ -37,14 +113,16 @@
     width: 100%;
     height: 10vw;
     background-color: aqua;
-    align-items: center;
-    justify-content: center;
+   
+    text-align: center;
+  
 }
 .right-con{
     display: flex;
     background-color: blueviolet;
     padding: 10px;
     width: 75%;
+    height: 100%;
 }
 
 .product-box{
@@ -57,6 +135,9 @@
 .product-container{
 background-color: red;
 width: 100%;
+padding: 10px;
+gap: 10px;
+margin-bottom: 10px;
 
 }
 .product-search{
@@ -73,9 +154,36 @@ width: 100%;
 }
 .product-catalog{
     display: flex;
-    background-color: #ffff;
+    background-color:gold;
+    border-radius: 25px;
 }
-
+.card-body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-title{
+   width: 100%;
+   text-align: center;
+   justify-content: center;
+}
+.box-product  {
+    background-color: chartreuse;
+    overflow: hidden;
+    border: 1px solid red;
+    border-radius: 25px;
+    
+}
+.box-product img {
+    border-radius: 25px;
+    transition: all 1.5s ease;
+}
+.box-product :hover img{
+    transform: scale(1.1);
+}
+.btn{
+    width: 120px;
+}
 
 footer{
     color: white;
@@ -84,6 +192,7 @@ footer{
 @media (max-width: 768px) { 
 .container{
     display: grid;
+    
 }
 .left-con{
     width: 100%;
@@ -91,5 +200,12 @@ footer{
 .right-con{
     width: 100%;
     background-color: chartreuse;
-}  
+} 
+.progress{
+    width: 100%;
+} 
+.container form{
+    width: 100%;
+    background: linear-gradient( 90deg,#fdd5ff 60%,#ffe5fb 40.1%);
+}
  }
