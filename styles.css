@@ -6,14 +6,11 @@
     text-transform: capitalize;
     transition: all 0.2s linear;
 }
-
 .container{
     display: flex;
     justify-content: center;
     width: 1140px;
     margin: 0 auto;
-    background-color: yellow;
-    padding: 10px;
     gap: 20px;
     min-height: 100vh;
     background: linear-gradient( 90deg,#fdd5ff 29.1%,#ffe5fb 71.1%);
@@ -131,17 +128,13 @@ border: 2px solid #ffff;
     border-radius: 15px;
     
 }
-
 .product-box{
     display: flex;
     width: 100%;
     object-fit:cover;
-    border-radius: 15px;
-    
+    border-radius: 15px;   
 }
-
 .product-container{
-
 width: 100%;
 padding: 10px;
 gap: 10px;
@@ -187,18 +180,21 @@ margin-bottom: 10px;
     transition: all 1.5s ease;
 }
 .box-product :hover img{
-    transform: scale(1.1);
-    
+    transform: scale(1.1);  
 }
 .btn{
     width: 120px;
 }
-
 footer{
+    padding: 10px;
     color: white;
     background-color: black;
     border: 1px solid #ffff;
     text-align: center;
+}
+.amout-box{
+   
+    background: aqua;
 }
 @media (max-width: 768px) { 
 .container{
